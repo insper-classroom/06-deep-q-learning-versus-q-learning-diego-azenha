@@ -16,12 +16,12 @@ import matplotlib.pyplot as plt
 # Imports do Q-Learning
 from qlearning_treino import treinar as ql_treinar
 from qlearning_teste import testar as ql_testar
-from qlearning_plot import plot_learning_curve as plot_ql_curve
+from qlearning_plot import plot_learning_curve as qlearning_plot
 
 # Imports do Deep Q-Learning
 from deepql_treino import treinar_deepql
 from deepql_teste import main as deepql_test
-from deepql_plot import plot_deepql_curve
+from deepql_plot import deepql_plot
 
 # 1) Configuração e criação de pastas
 
@@ -120,5 +120,5 @@ def main():
     print("\n========== TODOS OS PROCESSOS CONCLUIDOS ==========")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     main()
