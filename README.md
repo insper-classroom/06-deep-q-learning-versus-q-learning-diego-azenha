@@ -33,6 +33,10 @@ O código está estruturado da seguinte forma:
 
 ## Deep Q-Learning
 
+#### Observação
+
+No Deep Q-Learning (Dueling DQN), foi utilizada uma dual network, que separa o cálculo do valor do estado e da vantagem das ações, o que ajuda a melhorar a estabilidade do treinamento. Além disso, foi feita uma alteração no método de recompensa, com a introdução de reward shaping para acelerar a aprendizagem, fornecendo um feedback mais claro e direcionado para o agente. Essas mudanças foram aplicadas para melhorar a convergência e a eficiência do modelo durante o treinamento.
+
 ### Hiperparâmetros
 
 - Gamma = 0.99
