@@ -17,9 +17,19 @@ O código está estruturado da seguinte forma:
 
 ### Hiperparâmetros
 
+- Gamma = 0.99
+- Epsilon = 1
+- Epsilon mínimo = 0.01
+- Epsilon decay = 0.995
+- Episódios = 500
+- Batch size = 128
+- Learning rate = 0.1
+- Memória de replay = 50000
+- Max steps = 2000
 
 ### Curva de aprendizado
 
+![treino ql](https://github.com/user-attachments/assets/05c07a5f-dec4-4479-b5b1-e2c3fbe3a4da)
 
 
 ## Deep Q-Learning
@@ -39,4 +49,16 @@ O código está estruturado da seguinte forma:
 ### Curva de aprendizado
 
 ![Treino Deep QL](https://github.com/user-attachments/assets/95fb14b6-e9a0-4a4d-81a9-484b2145e7c5)
+
+## Comparação dos algoritmos - resultados dos testes
+
+# Comparação de Métricas de Performance
+
+| **Métrica de Performance**      | **Q-Learning (Clássico)**    | **Deep Q-Learning (Dueling DQN)**   |
+|---------------------------------|------------------------------|-------------------------------------|
+| **Recompensa Total por Episódio**          | xxx           | yyy               |
+| **Número de Passos por Episódio**          | xxx           | yyy               |
+| **Taxa de Sucesso**                        | xxx           | yyy               |
+| **Média de Passos por Episódio**           | xxx           | yyy               |
+| **Desvio Padrão dos Passos por Episódio**  | xxx           | yyy               |
 
