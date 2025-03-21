@@ -21,7 +21,7 @@ O código está estruturado da seguinte forma:
 - Epsilon = 1
 - Epsilon mínimo = 0.01
 - Epsilon decay = 0.995
-- Episódios = 500
+- Episódios = 1000
 - Batch size = 128
 - Learning rate = 0.1
 - Memória de replay = 50000
@@ -57,6 +57,6 @@ O código está estruturado da seguinte forma:
 | **Métrica de Performance**      | **Q-Learning (Clássico)**    | **Deep Q-Learning (Dueling DQN)**   |
 |---------------------------------|------------------------------|-------------------------------------|
 | **Taxa de Sucesso**                        | 5/5 (100%)      | 5/5 (100%)        |
-| **Média de Passos por Episódio**           | 113.8           | 160.4             |
-| **Desvio Padrão dos Passos por Episódio**  | 0.4             | 9.13              |
+| **Média de Passos por Episódio**           | 113.8           | 146.8             |
+| **Desvio Padrão dos Passos por Episódio**  | 0.4             | 2.86              |
 
