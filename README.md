@@ -56,9 +56,7 @@ O código está estruturado da seguinte forma:
 
 | **Métrica de Performance**      | **Q-Learning (Clássico)**    | **Deep Q-Learning (Dueling DQN)**   |
 |---------------------------------|------------------------------|-------------------------------------|
-| **Recompensa Total por Episódio**          | xxx           | yyy               |
-| **Número de Passos por Episódio**          | xxx           | yyy               |
-| **Taxa de Sucesso**                        | xxx           | yyy               |
-| **Média de Passos por Episódio**           | xxx           | yyy               |
-| **Desvio Padrão dos Passos por Episódio**  | xxx           | yyy               |
+| **Taxa de Sucesso**                        | xxx           | 5/5 (100%)        |
+| **Média de Passos por Episódio**           | xxx           | 160.4             |
+| **Desvio Padrão dos Passos por Episódio**  | xxx           | 9.13              |
 
