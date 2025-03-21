@@ -29,8 +29,7 @@ O código está estruturado da seguinte forma:
 
 ### Curva de aprendizado
 
-![treino ql](https://github.com/user-attachments/assets/05c07a5f-dec4-4479-b5b1-e2c3fbe3a4da)
-
+![treino ql](https://github.com/user-attachments/assets/a36726b7-9e4c-471b-b8e9-def6104b82ed)
 
 ## Deep Q-Learning
 
