@@ -59,6 +59,8 @@ O código está estruturado da seguinte forma:
 | **Média de Passos por Episódio**           | 146.8           | 113.8             |
 | **Desvio Padrão dos Passos por Episódio**  | 2.86            | 0.4               |
 
+## Análise dos resultados
+
 O Q-Learning clássico, apesar de ter alcançado uma taxa de sucesso de 100%, apresentou uma maior variabilidade nas recompensas e um número médio maior de passos por episódio. Isso é esperado, dado que o Q-Learning baseia-se em uma tabela de valores que é atualizada de maneira direta e iterativa, o que pode levar a um processo de convergência mais lento e maior flutuação nos resultados. No entanto, a simples atualização da Q-table permite que o Q-Learning alcance uma solução eficiente quando o espaço de estados e ações é relativamente pequeno, como no caso do ambiente MountainCar-v0.
 
 Por outro lado, o Deep Q-Learning (Dueling DQN), embora também tenha alcançado 100% de sucesso, demonstrou uma convergência mais estável com um número menor de passos por episódio e menos variabilidade nas recompensas. O uso de redes neurais permite que o Deep Q-Learning generalize melhor para estados não visitados anteriormente, aproveitando o processo de aprendizado por gradientes. O Dueling DQN, especificamente, separa o valor do estado e a recompensa, o que melhora a estabilidade do aprendizado ao reduzir a superestimação de certas ações. No entanto, o maior tempo de treinamento e a necessidade de mais interações com o ambiente são características esperadas em algoritmos baseados em redes neurais.
