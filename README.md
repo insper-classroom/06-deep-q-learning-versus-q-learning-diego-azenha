@@ -52,7 +52,7 @@ O código está estruturado da seguinte forma:
 
 ## Comparação dos algoritmos - resultados dos testes
 
-# Comparação de Métricas de Performance
+### Comparação de Métricas de Performance
 
 | **Métrica de Performance**      | **Q-Learning (Clássico)**    | **Deep Q-Learning (Dueling DQN)**   |
 |---------------------------------|------------------------------|-------------------------------------|
